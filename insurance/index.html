@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Car Insurance Quote Online</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+    <div class="col col-md-8 mr-md-auto ml-md-auto" >
+      <div id="content">
+            <header>
+                    <h1 class="text-center">Car Insurance Quote Online</h1>
+            </header>
+            <div class="row content-form">
+                <div class="col col-md-10 mr-md-auto ml-md-auto">
+                  <form action="#" id="request-quote">
+                              
+                                <div class="form-group">
+                                    <label for="make">Make:</label>
+                                    <select class="form-control" id="make">
+                                        <option value="">- Select -</option>
+                                        <option value="1">American</option>
+                                        <option value="2">Asian</option>
+                                        <option value="3">European</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                        <label for="year">Year:</label>
+                                        <select class="form-control" id="year"></select>
+                                </div>
+                                <fieldset class="form-group">
+                                    <div class="row">
+                                         <legend class="col-form-legend col-12">Level</legend>
+
+                                      <div class="col12">
+                                          <div class="form-check">
+                                            <label class="form-check-label">
+                                              <input class="form-check-input" type="radio" name="level" value="basic" checked>
+                                              Basic
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                              <input class="form-check-input" type="radio" name="level" value="complete">
+                                              Complete
+                                            </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </fieldset>
+
+                          <div id="loading">
+                              <img src="img/spinner.gif">
+                          </div>
+                          <div id="result"></div>
+                          <div class="form-group">
+                                  <button type="submit" class="btn btn-raised btn-primary">Get Quote
+                                  </button>
+                          </div>
+                  </form> 
+                </div>
+          </div>
+      </div> <!--#content-->
+    </div>
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+    <script src="js/classes.js"></script>
+    <script src="js/appClasses.js"></script>
+  
+  </body>
+</html>
